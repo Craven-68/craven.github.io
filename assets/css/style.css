@@ -1,7 +1,7 @@
 /* Overall page background and text */
 body {
-  background-color: #eef3f9; /* soft blue tint */
-  color: #333;
+  background-color: #121212; /* dark background */
+  color: #d1d1d1; /* soft gray text */
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -10,14 +10,14 @@ body {
 
 /* Header title and description */
 .site-title {
-  color: #2c3e50;
+  color: #f8f9fa; /* bright white for contrast */
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin-bottom: 0.2em;
 }
 
 .site-description {
-  color: #17a2b8;
+  color: #1abc9c; /* teal accent */
   font-family: "Open Sans", sans-serif;
   font-style: italic;
   margin-top: 0;
@@ -25,17 +25,17 @@ body {
 
 /* Headings inside content */
 h1, h2, h3 {
-  color: #2c3e50;
+  color: #f8f9fa;
   font-family: "Montserrat", sans-serif;
 }
 
 /* Links */
 a {
-  color: #0069d9;
+  color: #4da3ff;
   text-decoration: none;
 }
 a:hover {
-  color: #17a2b8;
+  color: #1abc9c;
   text-decoration: underline;
 }
 
@@ -43,26 +43,26 @@ a:hover {
 hr {
   border: 0;
   height: 2px;
-  background: #cfd8dc;
+  background: #333;
   margin: 2em 0;
 }
 
-/* Main content container (subtle tinted card) */
+/* Main content container (dark card style) */
 .container {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background: #f0f4f8; /* slightly darker tint than body */
+  background: #1e1e1e; /* slightly lighter than body */
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 
 /* Footer */
 footer {
-  background-color: #343a40;
-  color: #eef3f9;
+  background-color: #0d0d0d;
+  color: #d1d1d1;
   text-align: center;
   padding: 15px;
-  border-top: 3px solid #17a2b8;
+  border-top: 3px solid #1abc9c;
   border-radius: 4px;
 }
