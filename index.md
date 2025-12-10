@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+css: /assets/css/style.css
 ---
 
 # Your Name
