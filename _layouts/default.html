@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600&display=swap" rel="stylesheet">
+
+    <!-- Jekyll SEO Tag -->
+    {% seo %}
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        {% if site.title %}
+          <h1 class="site-title">{{ site.title }}</h1>
+        {% endif %}
+        {% if site.description %}
+          <p class="site-description">{{ site.description }}</p>
+        {% endif %}
+      </div>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; {{ site.author.name }} — {{ site.time | date: "%Y" }}</p>
+      </div>
+    </footer>
+  </body>
+</html>
