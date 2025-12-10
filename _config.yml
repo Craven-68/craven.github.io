@@ -5,7 +5,7 @@ url: "https://yourusername.github.io"   # Replace with your GitHub Pages URL
 baseurl: ""                # Leave empty for user/organization site
 
 # Build settings
-theme: minima              # GitHub Pages recommended default theme
+theme: jekyll-theme-cayman  
 markdown: kramdown         # Recommended markdown processor
 plugins:
   - jekyll-feed            # RSS feed support
