@@ -1,3 +1,24 @@
-theme: jekyll-theme-minimal
-title: Guillermo Cardenas hompage
-description: Take a look on my projects and current work.
+# Site settings
+title: "Your Name"        # Placeholder for your name
+description: "Professional CV Website"  # Placeholder description
+url: "https://yourusername.github.io"   # Replace with your GitHub Pages URL
+baseurl: ""                # Leave empty for user/organization site
+
+# Build settings
+theme: minima              # GitHub Pages recommended default theme
+markdown: kramdown         # Recommended markdown processor
+plugins:
+  - jekyll-feed            # RSS feed support
+  - jekyll-seo-tag         # SEO metadata
+  - jekyll-sitemap         # Sitemap for search engines
+
+# Author info (placeholders)
+author:
+  name: "Your Name"
+  email: "your.email@example.com"
+  github: "yourusername"
+  linkedin: "your-linkedin-url"
+
+# Optional: Customize theme colors (professional but attractive)
+minima:
+  skin: classic             # Options: classic, dark, solarized, etc.
