@@ -9,7 +9,7 @@ baseurl: ""              # Keep empty for user/organization site
 
 # Add custom CSS
 include:
-  - assets/css/style.css
+  - assets
 
 # Build settings
 markdown: kramdown       # Recommended markdown processor
