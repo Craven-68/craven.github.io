@@ -5,7 +5,7 @@ url: "https://yourusername.github.io"   # Replace with your GitHub Pages URL
 baseurl: ""              # Keep empty for user/organization site
 
 # Theme
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 
 # Add custom CSS
 include:
