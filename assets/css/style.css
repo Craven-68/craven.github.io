@@ -1,9 +1,11 @@
 /* Overall page background and text */
 body {
-  background-color: #f8f9fa;
+  background-color: #eef3f9; /* soft blue tint */
   color: #333;
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 /* Header title and description */
@@ -11,12 +13,14 @@ body {
   color: #2c3e50;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  margin-bottom: 0.2em;
 }
 
 .site-description {
   color: #17a2b8;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
+  margin-top: 0;
 }
 
 /* Headings inside content */
@@ -39,7 +43,7 @@ a:hover {
 hr {
   border: 0;
   height: 2px;
-  background: #e0e0e0;
+  background: #cfd8dc;
   margin: 2em 0;
 }
 
@@ -48,13 +52,16 @@ hr {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background: #ffffff; /* white card-style for readability */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* Footer */
 footer {
   background-color: #343a40;
-  color: #f8f9fa;
+  color: #eef3f9;
   text-align: center;
   padding: 15px;
-  border-radius: 4px;
+  border-top: 3px solid #17a2b8;
 }
