@@ -1,16 +1,17 @@
 # Site settings
-title: ""        # Placeholder for your name
-description: ""  # Placeholder description
+title: ""                # Leave blank to avoid header text
+description: ""          # Leave blank to avoid subtitle text
 url: "https://yourusername.github.io"   # Replace with your GitHub Pages URL
-baseurl: ""                # Leave empty for user/organization site
+baseurl: ""              # Keep empty for user/organization site
+
+# Theme
+theme: jekyll-theme-cayman
 
 # Build settings
-theme: jekyll-theme-cayman  
-markdown: kramdown         # Recommended markdown processor
+markdown: kramdown       # Recommended markdown processor
 plugins:
-  - jekyll-feed            # RSS feed support
-  - jekyll-seo-tag         # SEO metadata
-  - jekyll-sitemap         # Sitemap for search engines
+  - jekyll-seo-tag       # Adds SEO metadata
+  - jekyll-sitemap       # Generates sitemap for search engines
 
 # Author info (placeholders)
 author:
@@ -18,7 +19,3 @@ author:
   email: "your.email@example.com"
   github: "yourusername"
   linkedin: "your-linkedin-url"
-
-# Optional: Customize theme colors (professional but attractive)
-minima:
-  skin: classic             # Options: classic, dark, solarized, etc.
