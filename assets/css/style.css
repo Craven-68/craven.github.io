@@ -1,26 +1,37 @@
-/* Professional CV Styling */
-
-/* Use a modern, professional font */
+/* Overall page background and text */
 body {
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8f9fa;
   color: #333;
-  background-color: #fdfdfd;
+  font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
 }
 
-/* Headings with accent color */
-h1, h2, h3 {
+/* Header title and description */
+.site-title {
+  color: #2c3e50;
   font-family: "Montserrat", sans-serif;
-  color: #2c3e50; /* deep professional blue */
+  font-weight: 700;
 }
 
-/* Links with subtle hover effect */
+.site-description {
+  color: #17a2b8;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+/* Headings inside content */
+h1, h2, h3 {
+  color: #2c3e50;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Links */
 a {
-  color: #2980b9;
+  color: #0069d9;
   text-decoration: none;
 }
 a:hover {
-  color: #1abc9c; /* teal accent */
+  color: #17a2b8;
   text-decoration: underline;
 }
 
@@ -28,15 +39,22 @@ a:hover {
 hr {
   border: 0;
   height: 2px;
-  background: #1abc9c; /* teal accent line */
+  background: #e0e0e0;
   margin: 2em 0;
 }
 
-/* Add a card-like style for sections */
-section {
-  background: #ffffff;
-  border: 1px solid #e0e0e0;
+/* Main content container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 15px;
+  border-radius: 4px;
 }
