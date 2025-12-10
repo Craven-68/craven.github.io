@@ -7,6 +7,10 @@ baseurl: ""              # Keep empty for user/organization site
 # Theme
 theme: jekyll-theme-cayman
 
+# Add custom CSS
+include:
+  - assets/css/style.css
+
 # Build settings
 markdown: kramdown       # Recommended markdown processor
 plugins:
